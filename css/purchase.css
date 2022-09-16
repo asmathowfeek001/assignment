@@ -1,0 +1,41 @@
+.background-img{
+    background-image:linear-gradient(rgba(58, 53, 52, 0.767),rgba(91, 5, 99, 0.404)),url('../images/img27.jpg');
+    background-size:cover;
+}
+
+.heading_02{
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+}
+  
+
+.para_01{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(40, 3, 41);
+    background-color: rgba(77, 3, 64, 0.219);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow:-5px -5px 12px #011809a2,
+      3px 3px 7px rgba(147, 149, 151, 0.671);
+      padding: 40px 40px 40px 40px;
+}  
+
+
+.para_02{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.p_tea_background{
+    text-align: center;
+    background:linear-gradient(rgba(32, 22, 180, 0.377),rgba(214, 218, 230, 0.534)),url('../images/img28.jpg');
+    background-size: cover;
+    background-position: center;
+   
+  }

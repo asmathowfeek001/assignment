@@ -1,0 +1,96 @@
+.background-img_01{
+    background-image:linear-gradient(rgba(6, 3, 12, 0.356),rgba(23, 11, 197, 0.747)),url('../images/img14.png');
+    background-size:cover;
+  }
+
+  .background-img_02{
+    background-image:linear-gradient(rgba(19, 9, 155, 0.342),rgba(197, 185, 75, 0.212)),url('../images/img10.jpg');
+    background-size:cover;
+  }
+
+
+
+.heading_02{
+  font-size:45px;
+  text-align: center;
+  color: rgb(43, 14, 14);
+}
+
+
+.para{
+  font-size:20px;
+  text-align: justify;
+  color: rgb(43, 14, 14);
+  padding-right: 30px;
+
+}
+
+.line_1{
+  display:inline;
+}
+
+.full{
+    background-color: #a3ee4d46;
+}
+
+.img_pro_tea{
+    height: 400px;
+  }
+  
+  .p_tea_background{
+    color:var(--white);
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/img18.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 400px;
+  }
+  
+  
+:root{
+  --green:#26da77;  
+  --white:#fff;
+}
+
+
+  .btn_01{
+    transition: 0.5s;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:20px;
+    background-color:transparent;
+    color: var(--green);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid var(--green);
+    margin-right:50px;
+ 
+  }
+  
+  .btn_01:hover{
+    transition: 0.5s;
+    background-color:var(--green);
+    color:var(--white);
+    border: 1px solid var(--green);
+  }
+  
+  .btn_02{
+    transition: 0.5s;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:20px;
+    background-color:var(--green);
+    color: var(--white);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid var(--green);
+  }
+  
+  .btn_02:hover{
+    transition: 0.5s;
+    background-color:transparent;
+    color: var(--green);
+    border: 1px solid var(--green);
+  }
+  

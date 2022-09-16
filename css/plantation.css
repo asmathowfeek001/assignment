@@ -1,0 +1,184 @@
+.background-img_01{
+    background-image:linear-gradient(rgba(102, 4, 141, 0.521),rgba(15, 110, 6, 0)),url('../images/img5.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  
+.heading_02{
+   margin-bottom:10px;
+   font-size:45px;
+   color: rgb(19, 2, 48);
+   background-color: rgba(52, 10, 204, 0.13);
+   box-shadow:-2px -2px 7px #011809a2,
+   3px 3px 7px rgba(147, 149, 151, 0.671);
+   padding: 60px 20px 60px 20px;
+   text-align:center;
+ 
+}
+
+.heading_03{
+margin-bottom:10px; 
+font-size:30px; 
+text-align: center;
+background-color: rgba(8, 189, 68, 0.151);
+box-shadow:-5px -5px 12px #011809a2,
+   3px 3px 7px rgba(147, 149, 151, 0.671);
+padding: 30px 10px 30px 10px;
+}
+
+.para{
+    font-size:18px;
+    color: rgb(1, 1, 39);
+    text-align: justify;
+   
+}
+
+.background-img_02{
+    background-image:linear-gradient(rgba(16, 45, 211, 0.26),rgba(243, 247, 19, 0.185)),url('../images/img10.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+
+  .background-img_03{
+    background-image:linear-gradient(rgba(11, 138, 42, 0.26),rgba(243, 247, 19, 0.185)),url('../images/img10.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+.page3_img{
+    padding: 0;
+   
+  }
+  
+  .page3_img img{
+    box-shadow: -3px -3px 9px #aaa9a9a2,
+                3px 3px 7px rgba(147, 149, 151, 0.671);
+    width: 100%;
+    
+  }
+
+  
+.heading_04{
+  text-align:center;
+  font-size:30px; 
+  color: rgb(20, 7, 70);
+  padding-top:40px ;
+}
+
+:root{
+--green:#2cbe084f;
+--black:black;
+--white:#ccc;
+}
+
+  /* table design */
+  table {
+      width: 750px;
+      border-collapse: collapse;
+      margin:100px auto;
+      }
+  
+  /* Zebra striping */
+  tr:nth-of-type(odd) {
+      background: rgba(238, 238, 238, 0.507);
+      }
+  
+  th{
+      background: var(--green);
+      color: var(--black);
+      font-weight: bold;
+      padding: 10px;
+      border: 5px solid var(--white);
+      text-align:center;
+      font-size: 18px;
+      }
+  
+  td {
+      padding: 10px;
+      border: 5px solid var(--white);
+      text-align:center;
+      font-size: 16px;
+     
+      }
+
+  tfoot{
+    background: var(--green);
+    color: var(--black);
+    font-weight: bold;
+  }
+  
+  /*
+  Max width before this PARTICULAR table gets nasty
+  This query will take effect for any screen smaller than 760px
+  and also iPads specifically.
+  */
+  @media
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+  
+      table {
+            width: 100%;
+      }
+  
+      /* Force table to not be like tables anymore */
+      table, thead, tbody, th, td, tr,tfoot {
+          display: block;
+      }
+  
+      /* Hide table headers (but not display: none;, for accessibility) */
+      thead tr {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+  
+      tr { border: 1px solid var(--white); }
+  
+      td {
+          /* Behave  like a "row" */
+          border: none;
+          border-bottom: 5px solid var(--white);
+          position: relative;
+          padding-left: 50%;
+  
+      }
+  
+      td:before {
+          /* Now like a table header */
+          position: absolute;
+          /* Top/left values mimic padding */
+          top: 6px;
+          left: 6px;
+          width: 45%;
+          padding-right: 10px;
+          white-space: nowrap;
+          /* Label the data */
+          content: attr(data-column);
+  
+          color: var(--black);
+          font-weight: bold;
+      font-size:15px !important;
+      overflow-wrap: break-word;
+      }
+  
+  }
+  /* end of table */
+  /* map */
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:300px;
+    width:100%;
+  }
+  
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:300px;
+    width:100%;
+  }
+  

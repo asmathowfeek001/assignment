@@ -1,0 +1,67 @@
+.background-img_01{
+    background-image:linear-gradient(rgba(147, 178, 236, 0.082),rgba(2, 10, 44, 0.308)),url('../images/img31.jpg');
+    background-size:cover;
+    
+  }
+
+.heading_02{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.para{
+    font-size: 20px;
+    color: black;
+}
+
+
+.design_tea_seller_01{
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    border:20px rgba(10, 1, 63, 0.788);
+    height:800px;
+    animation-name: x;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+
+
+  @keyframes x {
+    0%{background-color: rgba(53, 79, 199, 0.527); }
+    25%{background-color: rgba(13, 31, 128, 0.486);}
+    50%{background-color: rgba(6, 23, 116, 0.288);}
+    75%{background-color: rgba(5, 13, 90, 0.418);}
+    100%{background-color: rgba(5, 22, 134, 0.247);}
+}
+
+
+.design_tea_seller_02{
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    border:20px  rgb(3, 27, 2);
+    height:800px;
+    animation-name: y;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+
+
+  @keyframes y {
+    0%{background-color: rgba(13, 211, 39, 0.301); }
+    25%{background-color: rgba(7, 139, 25, 0.322);}
+    50%{background-color: rgba(5, 83, 22, 0.61);}
+    75%{background-color: rgba(19, 122, 6, 0.39);}
+    100%{background-color: rgba(2, 53, 17, 0.514);}
+}
+
+
+
+  .img_tea_seller{
+    width:100%;
+  }
+

@@ -1,0 +1,54 @@
+.background-img_01{
+    background-image:linear-gradient(rgba(6, 37, 4, 0.418),rgba(17, 5, 5, 0.397)),url('../images/img19.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .background-img_02{
+    background-image:linear-gradient(rgba(27, 206, 10, 0.301),rgba(186, 207, 62, 0.212)),url('../images/img10.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+  }
+
+.heading_02{
+    font-size: 35px;
+    color: rgb(34, 53, 3);
+    animation-name: x;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes x {
+    from{color: rgb(3, 105, 3);}
+    to{color: rgb(185, 5, 5);}
+}
+
+.para{
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .design_tea_seller{
+    text-align:left;
+    width: 330px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: -3px -3px 9px #aaa9a9a2,
+                3px 3px 7px rgba(147, 149, 151, 0.671);
+  
+  }
+  
+  .img_tea_seller{
+    width:100%;
+  }

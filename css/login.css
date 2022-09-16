@@ -1,0 +1,101 @@
+.background-img_01{
+    background-image: url('../images/img29.jpg');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+  }
+  
+  .background-img_02{
+    background-image:linear-gradient(rgba(4, 24, 75, 0.582),rgba(225, 228, 224, 0)), url('../images/img10.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: center;
+  }
+  
+  .form-area {
+      display: flex;
+      justify-content: center;
+      padding-top: 100px; 
+      padding-bottom: 50px;
+      
+    }
+  
+  .form-content{
+      text-align: center;
+      width: 330px;
+      backdrop-filter: blur(5px);
+      border-radius: 10px;
+      padding: 40px 30px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      box-shadow: -5px -5px 12px #aaa9a9a2,
+                  3px 3px 7px rgba(147, 149, 151, 0.671);
+    
+    }
+    
+    
+    .form-content .text{
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 35px;
+      
+    }
+    
+    .form-content .field{
+      height: 50px;
+      width: 100%;
+      display: flex;
+      position: relative;
+    }
+    
+    .field input{
+      height: 100%;
+      width: 100%;
+      padding-left: 45px;
+      font-size: 18px;
+      outline: none;
+      border: none;
+      
+      border: 1px solid rgba(255, 255, 255, 0.438);
+      border-radius: 8px;
+    
+    
+    }
+    
+  
+    .field:nth-child(2){
+      margin-top: 20px;
+    }
+    
+  
+    .field span{
+      position: absolute;
+      width: 50px;
+      line-height: 50px;
+      color: black;
+    }
+  
+    
+    .form-content button{
+      margin: 25px 0 0 0;
+      width: 100%;
+      height: 50px;
+      color: black;
+      font-size: 18px;
+      font-weight: 600;
+      border: 2px solid rgba(255, 255, 255, 0.438);
+      border-radius: 8px;
+      
+     margin-top: 40px;
+      outline: none;
+      cursor: pointer;
+      border-radius: 8px;
+    
+    }
+    
+    .form-content .or{
+      
+      margin-top: 9px;
+    }
+    
